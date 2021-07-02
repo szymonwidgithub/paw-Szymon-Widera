@@ -1,0 +1,23 @@
+@import "./tictactoe";
+@import "./variables";
+@import "./mixes";
+
+body{
+  background-color: var(--body-backgroundcolor);
+  color: var(--text-color);
+}
+.main{
+  background-color: var(--body-backgroundcolor);
+}
+.singleGame{
+  background-color: var(--games-backgroundcolor);
+  width: 550px;
+  text-align: center;
+}
+.pick{
+  width: 110px;
+  &:hover{
+    cursor: pointer;
+    color: var(--games-backgroundcolor);
+  }
+}
